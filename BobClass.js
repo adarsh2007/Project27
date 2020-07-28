@@ -15,7 +15,7 @@ class  Bob {
     display(){
     var pos=this.body.position;
     push();
-    translate(pos.x,pos,y)
+    translate(pos.x,pos.y)
     ellipseMode(radiants);
     eliipse(0,0,this.radius,this.radius);
     fill("purple");
